@@ -571,7 +571,8 @@ class AbsScr(Screen):                                                           
         global speed_squats
         global speed
         img1_c = AsyncImage(source='abs2.png')
-        txt1_c = Label(text="Приседания", font_size = font_size2, pos_hint = {'x':-0.35})
+        txt1_c = Label(text="Пресс
+", font_size = font_size2, pos_hint = {'x':-0.35})
         txt2_c = Label(text="Уровень сложности: " + difficulty, font_size = font_size2)
         txt3_c = Label(text="Уровень сложности: " + difficulty, font_size = font_size2)
         txt4_c = Label(text= str(curr) + "/" + str(maxm), font_size = font_size2, pos = (100, 100))
